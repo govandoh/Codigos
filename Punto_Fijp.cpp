@@ -17,7 +17,7 @@ float f(float x){
 //Metodo para evaluar g(po)
 float g(float x){
     //return sqrtf(6 + 2*sqrt(21))/(2);             //Inciso 1 -> Transformacion 1
-    //return - powf((3 * powf(x,2) + 3),(0.25));      //Inciso 1 -> Transformacion 2
+    //return powf((3 * powf(x,2) + 3),(0.25));      //Inciso 1 -> Transformacion 2
     
     //return   (0.5) * sqrt(10 + powf(-x,3));        //Inciso 2 -> Transformacion 1 x (0.5) * (10 - x^3)^1/2
     return sqrtf((10)/(4+x));                     //Inciso 2 -> Transformacion 2 x = (10/4+x)^1/2
