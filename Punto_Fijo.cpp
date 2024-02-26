@@ -11,7 +11,9 @@ float TOL, p, po;
 //Metodo para evaluar f()
 float f(float x){
     //return pow(x,4) - 3 * pow(x,2) - 3;
-    return pow(x,3) + (4)*pow(x,2) - 10;
+    //return pow(x,3) + (4)*pow(x,2) - 10;
+
+    return 230*pow(x,4) + 18*pow(x,3)+ 9*pow(x,2) - 221*x - 9;
 }
 
 //Metodo para evaluar g(po)
@@ -20,7 +22,10 @@ float g(float x){
     //return powf((3 * powf(x,2) + 3),(0.25));      //Inciso 1 -> Transformacion 2
     
     //return   (0.5) * sqrt(10 + powf(-x,3));        //Inciso 2 -> Transformacion 1 x (0.5) * (10 - x^3)^1/2
-    return sqrtf((10)/(4+x));                     //Inciso 2 -> Transformacion 2 x = (10/4+x)^1/2
+    //return sqrtf((10)/(4+x));                     //Inciso 2 -> Transformacion 2 x = (10/4+x)^1/2
+
+    return ((230*powf(x,4) + 18*powf(x,3) + 9*powf(x,2) - 9)/(221)); 
+    //return ((230*powf(x,4) + 9*(pow(x,2)*(2*x+1)-1))/(221));
 }
 
 //Metodo para mostrar los datos por cada iteración de manera de tabla
