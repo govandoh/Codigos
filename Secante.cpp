@@ -4,6 +4,10 @@
 #include <iomanip>
 
 using namespace std;
+/*  Gerardo Antonio Ovando Hernandez 9490-21-7 Sección: A 
+    Metodos Numéricos - TAREA 05 - METODO SECANTE 
+    Fecha: 11-03-2024
+*/
 
 int i, IT; 
 float po, p1, p,  TOL; 
