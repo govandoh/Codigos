@@ -14,7 +14,9 @@ float f(float x){
     //return pow(x,4) - 3*pow(x,2) - 3;                 //Inciso 1 tarea
     //return pow(x,3) - 2 * pow(x,2) -5;                  //Inciso 2 tarea
     //return pow(2,x) - 6 * cos(x);                       //Inciso 3 tarea
-    return 230*pow(x,4) + 18*pow(x,3)+ 9*pow(x,2) - 221*x - 9;
+    //return 230*pow(x,4) + 18*pow(x,3)+ 9*pow(x,2) - 221*x - 9;
+
+    return powf(2,x) - 6 * cosf(x);                    //Inciso 2 - Tarea 5
 }
 
 float derivada(float x){
@@ -23,7 +25,9 @@ float derivada(float x){
     //return 4 * powf(x,3) -6*x;                        //Inciso 1 tarea
     //return 3 * pow(x,2) - 4*x;                          //Iniciso 2 tarea
     //return (pow(2,x)*log(2)) + 6 * sin(x);              //Inciso 3 tarea
-    return 920*powf(x,3) + 54*powf(x,2) + 18*x - 221;
+    //return 920*powf(x,3) + 54*powf(x,2) + 18*x - 221;
+
+    return log(2) * powf(2,x) + 6 * sinf(x);        // Inciso 2 - Tarea 5 
 }
 
 
