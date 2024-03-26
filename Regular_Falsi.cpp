@@ -14,7 +14,10 @@ int i, IT;
 float p0, p1, p, q0, q1, q, TOL; 
 
 float f(float x){
-    return powf(x,3) - 2*x - 5; 
+    //return powf(x,3) - 2*powf(x,2)- 5;  Inciso 1 - Tarea 7
+    //return x - cosf(x);                 Inciso 2 - Tarea 7
+    //return powf(x,3) + 3*powf(x,2) - 1;   //Inciso 3 - Tarea 7
+    return x - 0.8 - (0.2)*sinf(x);         //Inciso 4 - Tarea 7
 }
 
 void solicitar_datos(){
