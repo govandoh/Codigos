@@ -35,7 +35,7 @@ void ejecutarNeville(){
         }
     }
     valor = Q[0][n-1];
-    printf("Resultado a la interpolación del polinomio xint=%f es: %4.15f \n", xint, valor);
+    printf("Resultado a la interpolación del polinomio xint=%f es fxint: %4.15f \n", xint, valor);
 }
 
 int main(){
