@@ -3,8 +3,8 @@
 using namespace std;
 
 /*  Gerardo Antonio Ovando Hernandez 9490-21-7 Sección: A 
-    Metodos Numéricos - TAREA 07 - METODO LAGRANGE 
-    Fecha: 09-04-2024
+    Metodos Numéricos - TAREA 11 - METODO NEVILLE
+    Fecha: 06-05-2024
 */
 
 int n;
