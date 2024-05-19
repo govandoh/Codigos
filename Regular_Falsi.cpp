@@ -17,7 +17,8 @@ float f(float x){
     //return powf(x,3) - 2*powf(x,2)- 5;  Inciso 1 - Tarea 7
     //return x - cosf(x);                 Inciso 2 - Tarea 7
     //return powf(x,3) + 3*powf(x,2) - 1;   //Inciso 3 - Tarea 7
-    return x - 0.8 - (0.2)*sinf(x);         //Inciso 4 - Tarea 7
+    //return x - 0.8 - (0.2)*sinf(x);         //Inciso 4 - Tarea 7
+    return powf(x,4) + 5*powf(x,3) - 8*powf(x,2) - 19*x + 16; 
 }
 
 void solicitar_datos(){

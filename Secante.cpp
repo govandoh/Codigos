@@ -27,8 +27,9 @@ void solicitar_datos(){
 
 float f(float x){
     //return log(powf(x,2) + 1) - expf(0.4*x) * cosf(x * M_PI);
-    return powf(2,x) - 6 * cosf(x); 
+    //return powf(2,x) - 6 * cosf(x); 
     //return powf(x,2) - 6; 
+    return expf(-x) - log(x); 
 }
 
 void datos_iteracion(int i, float po, float p1, float qo, float q1, float p){
@@ -43,7 +44,7 @@ void ejecutar_secante(){
     cout << fixed << setprecision(15); 
     cout << setw(4) << "i" << setw(15) << "po" << setw(20) << "p1" << setw(20) << "qo" << setw(25) << "q1" << setw(25) << "p" << setw(30) << "f(p)" << setw(30) << "Error Abs."  << setw(5) << endl;
     //cout << "i" << "\t" << "po" << "\t" << "p1" << "\t"  << "qo" << "\t " << "q1" << "\t" << "p" << "\t" << "f(p)" << "\t" << "Error Abs." << endl;
-    cout << "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n";
+    cout << "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \n";
     do{
         float numerador = (q1 * (p1 - po)); 
         float denominador = (q1 -qo); 
